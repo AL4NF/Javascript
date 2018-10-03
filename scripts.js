@@ -113,7 +113,58 @@ function fibbo()
   }
 }
 
+function password()
+{
+  let pass=prompt("Cual es su contraseña?");
+  console.log(pass);
 
+  pass = pass.split("");
+
+  for(i=0;i<pass.length;i++)
+  {
+    if(pass[i]=="a")
+    {
+      pass[i]=4;
+    }else if(pass[i]=="e")
+    {
+      pass[i]=3;
+    }else if(pass[i]=="i")
+    {
+      pass[i]=1;
+    }else if(pass[i]=="o")
+    {
+    pass[i]=0;
+  }else if(pass[i]=="t")
+    {
+    pass[i]=7;
+    }
+  }
+  console.log(pass);
+  pass=pass.join("");
+  console.log(pass);
+}
+
+function palindromo()
+{
+  let word=prompt("Que palabra quieres verificar que sea Palindroma?")
+  // console.log(word);
+  // word = word.split("");
+  word=word.join("*");
+  console.log(word);
+
+
+  // for(let=i=0;i<word.lenght;i++)
+  // {
+  // }
+}
+
+
+
+// a => 4;
+// e => 3;
+// i => 1;
+// o => 0;
+// t => 7;
 
 
 
