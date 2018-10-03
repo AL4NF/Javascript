@@ -146,16 +146,26 @@ function password()
 
 function palindromo()
 {
-  let word=prompt("Que palabra quieres verificar que sea Palindroma?")
-  // console.log(word);
-  // word = word.split("");
-  word=word.join("*");
-  console.log(word);
+  let frase=prompt("Escribe la frase a verificar")
+  let fraseSinEspacios=frase.replace(/ /g,'');
+  let fraseEnMinusculas=fraseSinEspacios.toLowerCase();
+
+  let fraseVolteada='';
+  for(let i=fraseEnMinusculas.length-1;i>=0;i--)
+  {
+    fraseVolteada=fraseVolteada +fraseEnMinusculas[i];
+  }if(fraseEnMinusculas==fraseVolteada)
+  {
+    console.log(frase);
+    console.log(fraseVolteada);
+    console.log(fraseEnMinusculas + "Sí es un palindromo");
+  }else {
+    {
+      console.log(fraseEnMinusculas+ " No es un Palindormo");
+    }
+  }
 
 
-  // for(let=i=0;i<word.lenght;i++)
-  // {
-  // }
 }
 
 
