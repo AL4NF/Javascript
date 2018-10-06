@@ -1,11 +1,31 @@
-Button
+
+.Card
 {
-    color:White;
-    font-size:20px;
-    font-family:monospace;
-    border: 23px;
-    padding: 10px;
-    display:inline-block;
-    cursor:copy;
-    background-color: RoyalBlue;
+  background-color: FIREBRICK;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  margin:20px;
+  width: 200px;
+
+}
+
+.Card .title
+{
+  color:#0F0F0F;
+  font-size:30px;
+}
+
+.Card button
+{
+  background-color:black;
+  border:none;
+  border-radius:4px;
+  color: #EFA9AE;
+  cursor:pointer;
+  display:inline-block;
+  font-size:20px;
+  margin:0 auto;
+  padding:5px;
+  width: 100%;
 }

@@ -99,7 +99,7 @@ function fibbo()
     console.log("0 1");
   }else if(x==3)
   {
-    console.log("0 1 1");
+    console.log("0 1 ");
   }else{
     console.log(pri);
     console.log(seg);
@@ -158,25 +158,40 @@ function palindromo()
   {
     console.log(frase);
     console.log(fraseVolteada);
-    console.log(fraseEnMinusculas + "Sí es un palindromo");
+    console.log(fraseEnMinusculas + " Sí es un palindromo");
   }else {
     {
       console.log(fraseEnMinusculas+ " No es un Palindormo");
     }
   }
-
-
 }
 
+// convertArraytoObject()
+// {
+//   let x =prompt("Ingrese lo que quiere en el Array");
+//   const group={key1:["a","b"],value1:[1,2]};
+//   group.key2=["c","d"]
+//   group.value2=[3,4]
+//
+//   for(i=0;i<x.length;i++)
+//   {
+//
+//   }
 
-
-// a => 4;
-// e => 3;
-// i => 1;
-// o => 0;
-// t => 7;
-
-
+// convertArraytoObject(array)
+// {
+//   let finalObj={};//declaramos un
+//   for (let i=0;i<array.length;i++)
+//   {
+//     const node=array[i];
+//     const key=node.key;
+//     const value= node.value;
+//     let testObj={};
+//     testObj[key]=value;
+//     console.log(testObj);
+//   }
+//   return finalObj;
+// }
 
 
 
@@ -185,3 +200,11 @@ function palindromo()
 // Math.round() Redodea arriba y abajo
 // Math.floor() Redondea hacia abajo
 // Math.ceil() Redondea hacia arriba
+
+// const, let=> block scope
+// var=>function scope
+// const=>objects, arrays,const
+// var=>todo lo que si va a cambiar
+// = =>asignar vaor a una variable
+// : => asignar valor a una propiedad
+// propiedad => un elemento que define un objeto
