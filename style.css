@@ -1,12 +1,18 @@
-
+ /* Manera alternativa de controlar colores */
+:root
+{
+  --primary-color: Firebrick;
+  --secondary-color: #EFA9AE;
+}
 .Card
 {
-  background-color: FIREBRICK;
+  background-color: var(--primary-color);
   border-radius: 10px;
   display: inline-block;
   padding: 20px;
   margin:20px;
   width: 200px;
+  vertical-align: top;
 
 }
 
@@ -21,7 +27,7 @@
   background-color:black;
   border:none;
   border-radius:4px;
-  color: #EFA9AE;
+  color: var(--secondary-color);
   cursor:pointer;
   display:inline-block;
   font-size:20px;
